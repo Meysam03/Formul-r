@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <h1>Formulär</h1>
+    <p>Här behöver du fylla nedanstående formuläret och skicka in ;</p>
+    <form action="tackar.html">
+        <br><label for="platform"><b>kön:</b></label>
+        <select id="platform" name="platform" required>
+            <option value="PC">man </option>
+            <option value="xbox">kvinna</option>
+   <br>
+   <br>
+    </select><br><br>
+        <fieldset style="width: 462px;">
+          <legend>Vad sysslar du med?</legend>
+            <input type="radio" value="Studear" id="Studerar" name="spel">
+            <label for="Studerar">Studerar</label><br>
+
+            <input type="radio" value="Jobbar" id="Jobbar" name="spel">
+            <label for="Jobbar">Jobbar</label><br>
+        
+            <input type="radio" value="Spelar spel" id="Spelar spel" name="spel">
+            <label for="Spelar spel">Spelar spel</label><br>
+        
+            <input type="radio" value="Ingenting" id="Ingenting" name="spel">
+            <label for="Ingenting">Ingenting</label><br>
+        </fieldset>
+        <br>
+        <br>
+        <label for="familj"><b>Hur många personer bor du med:</b></label>
+        <select id="familj" name="familj" required>
+            <option value="ensam">ensam</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option> 
+        </select>
+        <br>
+        <br>
+
+        <label for="brätta"> <b>Vad tycker du om din familj:</b></label><br>
+        <textarea id="berätta" name="brätta"style="width: 485px; height: 186px;"></textarea>
+        <br>
+        <br>  
+        <div>
+            <h3>Är du nöjd med din familj?</h3>
+            <input type="checkbox" name="Ja" id="Ja">
+            <label for="Ja">Ja</label>
+            <input type="checkbox" name="Nej" id="Nej">
+            <label for="Nej">Nej</label>
+        </div>
+        <br>
+        <br>
+
+        <label for="feedback"><b>Om nej, varför?</b></label><br>
+        <textarea id="feedback" name="feedback"style="width: 485px; height: 186px;"></textarea><br><br>
+        <input type="submit" value="Skicka In">
+    </form>
+</body>
+</html>
